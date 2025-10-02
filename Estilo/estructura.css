@@ -1,0 +1,34 @@
+.padre{
+    background-color: black;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 7fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+.padre .menu{
+    background-color: aquamarine;
+    grid-column:1/3 ;
+    grid-row: 1/2;
+}
+.padre .contenido{
+    background-color: aquamarine;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+}
+.contenido-derecho{
+    flex: 2;
+}
+.contenido-izquierdo{
+    flex: 1;
+}
+.padre .ads{
+    background-color: aquamarine;
+    grid-column: 2/3;
+    grid-row:2/3 ;
+}
+.padre .pie{
+    background-color: aquamarine;
+    grid-column:1/3 ;
+    grid-row: 3/4;
+}
